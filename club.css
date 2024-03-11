@@ -1,0 +1,313 @@
+@font-face {
+    font-family: Playfair Display;
+    src: url(./ASSETS/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    overflow-x: hidden;
+}
+.main{
+    width: 100vw;
+    /* background-color: red; */
+    background-image: url(./ASSETS/holibg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    padding-y:10px;
+
+}
+.up>nav{
+    height: 15%;
+    width: 100vw;
+    /* background-color: plum; */
+    font-family: nasa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.up>.content{
+    height: 80%;
+    width: 100vw;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.up>.content>h1{
+    font-family: nasa;
+    font-size: 3rem;
+    letter-spacing: 10px;
+    color: #fff;
+}
+.up>.content>img{
+    width: 60vw;
+}
+/* select{
+    font-family: nasa;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+} */
+.page1{
+    height: 100vh;
+    width: 100vw;
+}
+/* option{
+    font-family: nasa;
+    color: #fff;
+} */
+.lnav{
+    width:29vw ;
+}
+.rnav>button{
+    font-family: nasa;
+    width: 22rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.lnav>ul>li>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+}
+.lnav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.up{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: salmon; */
+}
+.up>.content>h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+}
+.up>.content>button{
+    font-family: nasa;
+    font-size: 1.6rem;
+    width: 26rem;
+    font-weight: 800;
+    height: 4.4rem;
+    /* position: relative;
+    top: -19%;
+    left: 50%;
+    transform: translate(-50%,-19%); */
+    background-color: #fff;
+    border: none;
+    margin-top: 2rem;
+}
+.up>.content>h5{
+    font-family:'Raleway', sans-serif ;
+    width: 60%;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 30px;
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+}
+.bottom{
+/*     height: 100vh; */
+    width: 100vw;
+    /* background-color: mediumturquoise; */
+    display: flex;
+    backdrop-filter: blur(3px);
+    flex-direction: column;
+    align-items: center;
+}
+.bottom>.bottom1,.bottom2,.bottom3{
+    height: calc(100%/3);
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid rgba(117, 114, 114, 0.5);
+}
+.img-div{
+    height:900px;width: 250px;position: absoute;z-index: 50;background-color:red;
+}
+#change{
+    object-fit: cover;
+}
+.l{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    /* background-color: peru; */
+    text-align: center;
+    padding: 20px ;
+    justify-content: center;
+
+}
+.l>h1{
+    
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 5rem;
+    line-height: 70%;
+    mix-blend-mode: difference;
+    letter-spacing: -4px;
+}
+.l>h4{
+    font-size:1.6rem;
+    font-family: 'Amiri';
+    color: #fff;
+    mix-blend-mode: difference;
+
+}
+.r{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    /* background-color: paleturquoise; */
+    font-family: 'nasa';
+    font-size: 2rem;
+    text-align: justify;
+    color: #fff;
+    line-height: 100%;
+}
+.page3>.bottom>h1{
+    font-size: 5rem;
+    color: #fff;
+    font-family: nasa;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.r>p{
+    width: 72%;
+}
+.page3{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.swiper {
+    width: 85%;
+    height: 43%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 1.6rem;
+    color:#fff;
+    background: transparent;
+    font-family: nasa;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  #left>img{
+    height:20rem ;
+    width:15rem ;
+    margin-bottom: 5px;
+  }
+  #right{
+    width: 50%;
+    padding-left: 10px;
+  }
+  #right>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: justify;
+  }
+  .slideimage{
+    height: 250px;
+    width: 200px;
+
+  }
+  .swiper-slide >.slideimage>.l>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  .swiper-slide >h3{
+    margin-top: 20px;
+  }
+
+  .bottom1Sponsors{
+    /* background-color: mediumturquoise; */
+    display: flex;
+    backdrop-filter: blur(3px);
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#biggest{
+    font-family: "Nova Script", system-ui;;
+}
+
+
+@media(max-width:760px){
+    .bottom1,.bottom2,.bottom3{
+        flex-direction: column;
+
+    }
+    .l,.r{
+        width: 100vw;
+    }
+    html{
+
+        font-size: 9px;
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size: 7px;
+
+    }
+}
+
+@media(max-width:290px){
+    html{
+        font-size: 5px;
+
+    }
+}
+#few:hover {
+    background-color: yellow;
+}
